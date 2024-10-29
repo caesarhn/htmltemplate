@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.4.14"
+  },
+  "scripts": {
+    "build:firsttemplate": "tailwindcss -i ./first_template/tailwind.css -o ./first_template/styles.css --watch"
+  }
+}
